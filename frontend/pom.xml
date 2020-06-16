@@ -3,10 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.kickercost.custom</groupId>
-  <artifactId>camera-ai-bridge-frontend</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>camera-ai-bridge-frontend</name>
+  <artifactId>frontend</artifactId>
+  <name>frontend</name>
   <description>Front end Application for bridge.
   </description>
   <parent>

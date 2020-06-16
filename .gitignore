@@ -1,4 +1,5 @@
 .idea/*
 .idea/runConfigurations
-Camera-AI-Bridge-Backend/target/
+backend/target/
+frontend/target/
 

@@ -3,10 +3,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.kickercost.custom</groupId>
-    <artifactId>camera-ai-bridge-backend</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>camera-ai-bridge-backend</name>
+    <artifactId>com.backend</artifactId>
+    <name>backend</name>
     <description>Bridge applicaiton for facilitating comunication of images to a 3rd party service (AI) and then
         handling the response.
     </description>
@@ -22,6 +20,13 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.kickercost.custom</groupId>
+            <artifactId>frontend</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>runtime</scope>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>

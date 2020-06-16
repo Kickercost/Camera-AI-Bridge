@@ -21,8 +21,8 @@
     </parent>
 
     <modules>
-        <module>Camera-AI-Bridge-Backend</module>
-        <module>Camera-AI-Bridge-Frontend</module>
+        <module>backend</module>
+        <module>frontend</module>
     </modules>
 
 </project>
